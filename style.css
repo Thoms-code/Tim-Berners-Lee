@@ -55,10 +55,10 @@ main {
 }
 
 ul#navigation {
-    padding: 0 5px;
+    padding: 25px 5px;
     font-size: 0.9rem;
     list-style: none;
-    margin: 15px 10px;
+    margin: 0 10px;
 }
 
 #navigation > li {
