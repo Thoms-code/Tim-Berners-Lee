@@ -3,6 +3,7 @@ body {
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    font-family: Helvetica, sans-serif;
 }
 
 
@@ -13,7 +14,6 @@ nav {
     align-items: center;
     background-color: #03182e;
     color: #fafafa;
-    font-family: Helvetica, sans-serif;
 }
 
 #logo {
@@ -39,13 +39,39 @@ li {
     list-style-type: none;
     cursor: pointer;
 }
-#connect {
-    /*width: 100%;*/
-    /*margin-left: auto;*/
-}
 
 #subscribe {
     background-color: #a71600;
     padding: 5px 20px;
     border-radius: 5px;
+}
+
+/*main*/
+
+main {
+    height: 100%;
+    margin: 0 20px;
+    border-left: solid 1px #d0d7de;
+}
+
+ul#navigation {
+    padding: 0 5px;
+    font-size: 0.9rem;
+    list-style: none;
+    margin: 15px 10px;
+}
+
+#navigation > li {
+    margin: 0;
+}
+
+ul#navigation li+li:before {
+    padding: 20px;
+    color: black;
+    content: ">\00a0";
+}
+
+#navigation > li > a {
+    color: #12439c;
+    text-decoration: none;
 }
