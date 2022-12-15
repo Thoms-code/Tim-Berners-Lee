@@ -183,6 +183,7 @@ ul#breadcrumb li + li:before {
   width: 100%;
 }
 .content .box_grid .img-box figure figcaption {
+  text-align: start;
   height: 2vh;
   margin-left: 1rem;
   line-height: 2rem;
