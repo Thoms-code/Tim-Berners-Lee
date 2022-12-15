@@ -193,7 +193,7 @@ ul#breadcrumb li + li:before {
 }
 
 .content .box_grid .img-box figure div {
-    background-image: url("/images/profile_picture.jpg");
+    background-image: url("./images/profile_picture.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
