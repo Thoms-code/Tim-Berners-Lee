@@ -2,11 +2,12 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
+    background-color: #fafafa;
     overflow: hidden;
     font-family: Helvetica, sans-serif;
 }
 
-
+/*Navbar*/
 nav {
     height: 50px;
     display: flex;
@@ -46,32 +47,46 @@ li {
     border-radius: 5px;
 }
 
-/*main*/
 
+/*Main*/
 main {
     height: 100%;
     margin: 0 20px;
     border-left: solid 1px #d0d7de;
 }
 
-ul#navigation {
-    padding: 25px 5px;
+/*Breadcrumb*/
+ul#breadcrumb {
+    padding: 25px 0 5px 5px;
     font-size: 0.9rem;
     list-style: none;
-    margin: 0 10px;
+    margin: 0 10px 10px;
 }
 
-#navigation > li {
+#breadcrumb > li {
     margin: 0;
 }
 
-ul#navigation li+li:before {
+ul#breadcrumb li+li:before {
     padding: 20px;
     color: black;
     content: ">\00a0";
 }
 
-#navigation > li > a {
+#breadcrumb > li > a {
     color: #12439c;
     text-decoration: none;
 }
+/*Content*/
+.content {
+    margin: 0 auto auto 20px;
+    width: 33%;
+    background-color: #a71600;
+}
+.title {
+
+}
+
+.
+
+
