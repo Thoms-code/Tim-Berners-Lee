@@ -81,7 +81,7 @@ ul#breadcrumb li + li:before {
 /*Content*/
 .content {
   margin: 0 auto auto 20px;
-  width: 48%;
+  width: 750px;
   background-color: #ffffff;
   border: solid 1px #d0d7de;
   font-family: Georgia, serif;
